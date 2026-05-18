@@ -1,0 +1,15 @@
+# Entornos virtuales
+venv/
+env/
+.env
+
+# Archivos compilados de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de salida generados por el script
+outputs_live/
+*.mp4
+*.png
