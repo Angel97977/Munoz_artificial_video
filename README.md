@@ -403,33 +403,6 @@ Avoid values like:
 ```
 
 Those make the motion hard to read and may look unstable.
-
----
-
-## Suggested GitHub Repository Structure
-
-```bash
-.
-├── README.md
-├── live_multi_robot_visual.py
-├── outputs_live/                 # generated after running the script
-│   ├── live_map_and_povs.mp4
-│   └── final_dashboard.png
-└── requirements.txt              # optional
-```
-
-Optional `requirements.txt`:
-
-```txt
-numpy>=1.23.5,<2.0
-opencv-python<4.10
-scipy
-scikit-learn
-matplotlib
-pillow
-xgboost
-```
-
 ---
 
 ## Assignment Summary
